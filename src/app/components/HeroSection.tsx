@@ -12,14 +12,15 @@ function HeroSection() {
           transition={{ ease: "easeOut", duration: 0.4 }}
           className="flex flex-col"
         >
-          <span className="text-6xl text-white uppercase mt-2 font-Lilita text-center lg:text-start">
-            La Marinara
-          </span>
          
-              <Link href="/">
-                <img src="/pngegg (2).png" className="w-16" />
-              </Link>
+            <span className="text-5xl text-white uppercase mt-2 font-Lilita text-center lg:text-start">
+              La Marinara
+            </span>
           
+                <Link href="/">
+                  <img src="/pngegg (2).png" className="w-16" />
+                </Link>
+         
           <br></br><br></br><br></br><br></br>
           <span className="text-yellow-400 text-5xl font-bold capitalize font-Caveat text-center lg:text-start">
             Prova la nostra nuova
