@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 function HeroSection() {
   return (
     <div className="flex flex-col-reverse lg:flex-row items-center">
@@ -11,22 +12,29 @@ function HeroSection() {
           transition={{ ease: "easeOut", duration: 0.4 }}
           className="flex flex-col"
         >
+          <span className="text-6xl text-white uppercase mt-2 font-Lilita text-center lg:text-start">
+            La Marinara
+          </span>
+         
+              <Link href="/">
+                <img src="/pngegg (2).png" className="w-16" />
+              </Link>
+          
+          <br></br><br></br><br></br><br></br>
           <span className="text-yellow-400 text-5xl font-bold capitalize font-Caveat text-center lg:text-start">
-            Try Our New
+            Prova la nostra nuova
           </span>
           <h1 className="text-6xl text-white uppercase mt-2 font-Lilita text-center lg:text-start">
-            Delux Cheese Burger
+            Pizza Calabrese
           </h1>
           <p className="text-gray-400 mt-8 text-center lg:text-start">
-            Treat yourself to the delux taste of grilled or crispy 100% Aussie
-            chicken breast combined with Aussie Jack Cheese, lettuce, ripe
-            tomato and just the right amount of aioli.
+            Ingredienti: Mozzarella Fior di latte, Pomodorini confit, Rucola, Capocollo Calabrese Piccante
           </p>
           <button
             type="button"
             className="text-black font-bold bg-yellow-400 rounded-full px-8 py-2 mt-8 max-w-max self-center lg:self-start transition-transform hover:scale-105 shadow-lg shadow-yellow-800"
           >
-            Order Now
+            Prenota adesso!
           </button>
         </motion.div>
       </div>
@@ -37,7 +45,7 @@ function HeroSection() {
           animate={{ y: 0, opacity: 100 }}
           transition={{ ease: "easeOut", duration: 0.4 }}
         >
-          <img src="/beef-burger.webp" className="w-full" />
+          <img src="/AdobeStock_574603352_Preview.png" className="w-full" />
         </motion.div>
       </div>
     </div>
