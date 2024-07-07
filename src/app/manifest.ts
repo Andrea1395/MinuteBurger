@@ -2,8 +2,8 @@ import { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Minute Burger",
-    short_name: "Minute Burger",
+    name: "La Marinara",
+    short_name: "La Marinara",
     description: "Your happiness gateway",
     start_url: "/",
     display: "standalone",

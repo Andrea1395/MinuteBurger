@@ -13,7 +13,6 @@ function MainHeader() {
             <div className="text-white">
               <Link href="/">
                 <img src="/pngegg (2).png" className="w-16" />
-                esdtsg
               </Link>
             </div>
             <Navigation />
