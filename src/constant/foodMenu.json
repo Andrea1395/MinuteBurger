@@ -2,37 +2,37 @@
   {
     "id": 1,
     "name": "cheese hamburger",
-    "image": "/pngegg (2).webp",
+    "image": "/beef-burger.webp",
     "price": 29.99
   },
   {
     "id": 2,
     "name": "chicken burger",
-    "image": "/pngegg (2).webp",
+    "image": "beef-burger.webp",
     "price": 29.99
   },
   {
     "id": 3,
     "name": "roots burger",
-    "image": "/pngegg (2).webp",
+    "image": "beef-burger.webp",
     "price": 29.99
   },
   {
     "id": 4,
     "name": "volkano burger",
-    "image": "/pngegg (2).webp",
+    "image": "beef-burger.webp",
     "price": 29.99
   },
   {
     "id": 5,
     "name": "doubleB burger",
-    "image": "/pngegg (2).webp",
+    "image": "beef-burger.webp",
     "price": 29.99
   },
   {
     "id": 6,
     "name": "doodle burger",
-    "image": "/pngegg (2).webp",
+    "image": "beef-burger.webp",
     "price": 29.99
   }
 ]
