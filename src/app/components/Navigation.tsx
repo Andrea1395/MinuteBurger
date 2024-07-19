@@ -9,8 +9,10 @@ function Navigation() {
   return (
     <nav className="hidden lg:flex">
       <ul className="flex flex-row gap-4">
+     
         {navigationMenu.mainMenu.map((item, index) => (
           <li className="group" key={index}>
+            
             <Link
               href={item.link}
               className={`px-2 py-2 border-b-2 transition-colors group-hover:border-yellow-400 group-hover:text-yellow-400 ${

@@ -17,9 +17,7 @@ function HeroSection() {
               La Marinara
             </span>
           
-                <Link href="/">
-                  <img src="/pngegg (2).png" className="w-16" />
-                </Link>
+              
          
           <br></br><br></br><br></br><br></br>
           <span className="text-yellow-400 text-5xl font-bold capitalize font-Caveat text-center lg:text-start">
