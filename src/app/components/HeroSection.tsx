@@ -1,7 +1,15 @@
 "use client";
 import React from "react";
+import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
+
 function HeroSection() {
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
   return (
     <div className="flex flex-col-reverse lg:flex-row items-center">
       <div className="w-full lg:w-1/2">
@@ -11,16 +19,15 @@ function HeroSection() {
           transition={{ ease: "easeOut", duration: 0.4 }}
           className="flex flex-col"
         >
-          <span className="text-yellow-400 text-5xl font-bold capitalize font-Caveat text-center lg:text-start">
-            Try Our New
+          <span className="text-yellow-400 text-7xl font-bold capitalize font-Caveat text-center lg:text-start">
+            La Marinara
           </span>
-          <h1 className="text-6xl text-white uppercase mt-2 font-Lilita text-center lg:text-start">
-            Delux Cheese Burger
+          <h1 className="text-4xl text-white uppercase mt-2 font-Lilita text-center lg:text-start">
+            Pizzeria d'asporto
           </h1>
           <p className="text-gray-400 mt-8 text-center lg:text-start">
-            Treat yourself to the delux taste of grilled or crispy 100% Aussie
-            chicken breast combined with Aussie Jack Cheese, lettuce, ripe
-            tomato and just the right amount of aioli.
+            Forno a legna
+            Pizzza e Pane Fresco
           </p>
           <button
             type="button"
