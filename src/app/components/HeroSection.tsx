@@ -4,15 +4,11 @@ import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
 function HeroSection() {
-  const [isClient, setIsClient] = useState(false);
-
-  useEffect(() => {
-    setIsClient(true);
-  }, []);
+  
 
   return (
-    <div className="flex flex-col-reverse lg:flex-row items-center">
-      <div className="w-full lg:w-1/2">
+    <div suppressHydrationWarning className="flex flex-col-reverse lg:flex-row items-center">
+      <div suppressHydrationWarning className="w-full lg:w-1/2">
         <motion.div
           initial={{ x: -100, opacity: 0 }}
           animate={{ x: 0, opacity: 100 }}
@@ -33,12 +29,12 @@ function HeroSection() {
             type="button"
             className="text-black font-bold bg-yellow-400 rounded-full px-8 py-2 mt-8 max-w-max self-center lg:self-start transition-transform hover:scale-105 shadow-lg shadow-yellow-800"
           >
-            Order Now
+            Prenota Adesso!
           </button>
         </motion.div>
       </div>
 
-      <div className="w-full lg:w-1/2">
+      <div suppressHydrationWarning className="w-full lg:w-1/2">
         <motion.div
           initial={{ y: 100, opacity: 0 }}
           animate={{ y: 0, opacity: 100 }}
