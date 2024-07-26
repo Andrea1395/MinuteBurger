@@ -1,38 +1,38 @@
 [
   {
     "id": 1,
-    "name": "cheese hamburger",
-    "image": "/beef-burger.webp",
-    "price": 29.99
+    "name": "Marinara",
+    "image": "/pizza1.png",
+    "price": 5.00
   },
   {
     "id": 2,
-    "name": "chicken burger",
-    "image": "/beef-burger.webp",
-    "price": 29.99
+    "name": "Margherita",
+    "image": "/pizza2.png",
+    "price": 6.00
   },
   {
     "id": 3,
-    "name": "roots burger",
-    "image": "/beef-burger.webp",
-    "price": 29.99
+    "name": "Diavola",
+    "image": "/pizza1.png",
+    "price": 7.00
   },
   {
     "id": 4,
-    "name": "volkano burger",
-    "image": "/beef-burger.webp",
-    "price": 29.99
+    "name": "4 Stagioni",
+    "image": "/pizza2.png",
+    "price": 9.00
   },
   {
     "id": 5,
-    "name": "doubleB burger",
-    "image": "/beef-burger.webp",
-    "price": 29.99
+    "name": "Pugliese",
+    "image": "/pizza1.png",
+    "price": 8.00
   },
   {
     "id": 6,
-    "name": "doodle burger",
-    "image": "/beef-burger.webp",
-    "price": 29.99
+    "name": "Romana",
+    "image": "/pizza2.png",
+    "price": 8.00
   }
 ]

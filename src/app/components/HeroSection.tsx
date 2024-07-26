@@ -23,7 +23,7 @@ function HeroSection() {
           </h1>
           <p className="text-gray-400 mt-8 text-center lg:text-start">
             Forno a legna
-            Pizzza e Pane Fresco
+            Pizza e Pane Fresco
           </p>
           <button
             type="button"

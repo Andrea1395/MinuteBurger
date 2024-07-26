@@ -24,21 +24,16 @@ function Specialities() {
           viewport={{ once: true }}
         >
           <h3 className="text-2xl text-white uppercase mt-4 lg:mt-0">
-            Step into burger heaven
+            Prova la nostra nuova pizza Calabrese!
           </h3>
           <p className="text-gray-400 leading-loose mt-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-            perspiciatis rem dignissimos obcaecati asperiores doloremque, beatae
-            unde voluptatibus, dolor atque voluptates? Nesciunt dolorum ducimus
-            iure adipisci. At odio ratione magnam.
+            Ingredienti
           </p>
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 text-white mt-8">
-            <SpecialitiesItem title="best price" />
-            <SpecialitiesItem title="Best Service" />
-            <SpecialitiesItem title="Fresh Ingredient" />
-            <SpecialitiesItem title="backed buns" />
-            <SpecialitiesItem title="natural cheese" />
-            <SpecialitiesItem title="veg & non-veg" />
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 text-white mt-8">
+            <SpecialitiesItem title="Mozzarella Fior di latte" />
+            <SpecialitiesItem title="Pomodorini confit" />
+            <SpecialitiesItem title="Rucola" />
+            <SpecialitiesItem title="Capocollo Calabrese Piccante" />
           </div>
         </motion.div>
       </div>

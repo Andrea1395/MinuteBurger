@@ -21,7 +21,7 @@ function CartItem({
         <img src={image} className="w-16" />
         <div>
           <p>{name}</p>
-          <p className="text-sm text-gray-300">${price}</p>
+          <p className="text-sm text-gray-300">€ {price}</p>
         </div>
       </div>
       <div className="flex flex-row justify-end items-center gap-4">

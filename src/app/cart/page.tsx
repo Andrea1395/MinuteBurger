@@ -39,34 +39,34 @@ function page() {
       <div className="flex flex-col lg:flex-row gap-10">
         <div className="w-full lg:w-1/2 bg-gray-500/5 rounded-lg backdrop-filter backdrop-blur-lg">
           <div className="border-b border-gray-600 py-4 px-4">
-            <h2 className="text-white text-xl">Contact Info</h2>
+            <h2 className="text-white text-xl">Contatti</h2>
           </div>
           <div className="px-4 py-4">
             <div className="flex flex-col">
-              <label className="text-gray-100">Full Name: *</label>
+              <label className="text-gray-100">Nome: *</label>
               <input
                 type="text"
-                placeholder="Your Full Name"
+                placeholder="Nome"
                 className="bg-transparent border border-gray-500 text-white mt-1"
               />
             </div>
           </div>
           <div className="px-4 py-4">
             <div className="flex flex-col">
-              <label className="text-gray-100">Phone Number: *</label>
+              <label className="text-gray-100">Numero: *</label>
               <input
                 type="text"
-                placeholder="Your Phone Number"
+                placeholder="Numero di telefono"
                 className="bg-transparent border border-gray-500 text-white mt-1"
               />
             </div>
           </div>
           <div className="px-4 py-4">
             <div className="flex flex-col">
-              <label className="text-gray-100">Address: *</label>
+              <label className="text-gray-100">Indirizzo: *</label>
               <input
                 type="text"
-                placeholder="Your Address"
+                placeholder="Il tuo indirizzo"
                 className="bg-transparent border border-gray-500 text-white mt-1"
               />
             </div>
@@ -74,7 +74,7 @@ function page() {
         </div>
         <div className="w-full lg:w-1/2 bg-gray-500/5 rounded-lg backdrop-filter backdrop-blur-lg">
           <div className="border-b border-gray-600 py-4 px-4">
-            <h2 className="text-white text-xl">Order Summary</h2>
+            <h2 className="text-white text-xl">Totale Ordine</h2>
           </div>
           <div className="px-4 py-4 flex flex-col gap-4 border-b border-gray-600">
             {cart.map((item, index) => (
@@ -92,15 +92,15 @@ function page() {
           </div>
           <div className="px-4 py-6 flex flex-col">
             <div className="flex flex-row justify-between text-white">
-              <span>Subtotal:</span>
-              <span className="font-semibold">$ {subtotal}</span>
+              <span>Totale:</span>
+              <span className="font-semibold">€ {subtotal}</span>
             </div>
 
             <button
               type="button"
               className="w-full rounded-full py-2 font-bold text-lg bg-yellow-400 text-black mt-10 transition-transform hover:scale-105 shadow-lg shadow-yellow-800"
             >
-              Place Order
+              Ordina
             </button>
           </div>
         </div>
