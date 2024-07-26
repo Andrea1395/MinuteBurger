@@ -2,6 +2,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 function HeroSection() {
   
@@ -22,15 +23,17 @@ function HeroSection() {
             Pizzeria d'asporto
           </h1>
           <p className="text-gray-400 mt-8 text-center lg:text-start">
-            Forno a legna
-            Pizza e Pane Fresco
+            Forno a legna Pizza e Pane Fresco
           </p>
+          <Link href="/menu">
           <button
             type="button"
             className="text-black font-bold bg-yellow-400 rounded-full px-8 py-2 mt-8 max-w-max self-center lg:self-start transition-transform hover:scale-105 shadow-lg shadow-yellow-800"
           >
             Prenota Adesso!
           </button>
+              </Link>
+          
         </motion.div>
       </div>
 

@@ -12,7 +12,7 @@ function Contact() {
     >
       <div>
         <h2 className="text-white font-bold text-2xl text-center mb-12">
-          Contact Us
+          Contattaci
         </h2>
         <div className="flex flex-col lg:flex-row gap-8">
           <div className="w-full lg:w-1/2">
@@ -29,7 +29,7 @@ function Contact() {
             <form className="flex flex-col">
               <input
                 type="text"
-                placeholder="Full Name *"
+                placeholder="Nome *"
                 required
                 className="bg-transparent border-gray-700 mb-8 placeholder:text-gray-300 text-white focus:border-white"
               />
@@ -41,13 +41,13 @@ function Contact() {
               />
               <input
                 type="text"
-                placeholder="Phone Number *"
+                placeholder="Numero *"
                 required
                 className="bg-transparent border-gray-700 mb-8 placeholder:text-gray-300 text-white focus:border-white"
               />
               <textarea
                 rows={5}
-                placeholder="Message *"
+                placeholder="Messaggio *"
                 required
                 className="bg-transparent border-gray-700 mb-8 placeholder:text-gray-300 text-white focus:border-white"
               ></textarea>
@@ -55,7 +55,7 @@ function Contact() {
                 type="submit"
                 className="border border-white text-white px-6 py-2 transition-colors hover:bg-white hover:text-black"
               >
-                Send Message
+                Invia messaggio
               </button>
             </form>
           </div>
