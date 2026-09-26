@@ -24,13 +24,10 @@ function Specialities() {
           viewport={{ once: true }}
         >
           <h3 className="text-2xl text-white uppercase mt-4 lg:mt-0">
-            Step into burger heaven
+            Pizze Speciali!
           </h3>
           <p className="text-gray-400 leading-loose mt-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-            perspiciatis rem dignissimos obcaecati asperiores doloremque, beatae
-            unde voluptatibus, dolor atque voluptates? Nesciunt dolorum ducimus
-            iure adipisci. At odio ratione magnam.
+            ...
           </p>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 text-white mt-8">
             <SpecialitiesItem title="best price" />
