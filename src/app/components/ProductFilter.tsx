@@ -11,7 +11,7 @@ function ProductFilter() {
             name="type"
             className="bg-yellow-800 checked:bg-yellow-400"
           />
-          <label>All</label>
+          <label>Le Classiche</label>
         </div>
         <div className="flex flex-row items-center gap-2">
           <input
@@ -20,7 +20,7 @@ function ProductFilter() {
             name="type"
             className="bg-yellow-800 checked:bg-yellow-400"
           />
-          <label>Ham</label>
+          <label>Le Baby</label>
         </div>
         <div className="flex flex-row items-center gap-2">
           <input
@@ -29,7 +29,18 @@ function ProductFilter() {
             name="type"
             className="bg-yellow-800 checked:bg-yellow-400"
           />
-          <label>Chicken</label>
+          <label>Le bianche</label>
+          
+        </div>
+        <div className="flex flex-row items-center gap-2">
+          <input
+            type="radio"
+            value="ham"
+            name="type"
+            className="bg-yellow-800 checked:bg-yellow-400"
+          />
+          <label>Le Speciali</label>
+          
         </div>
       </div>
     </div>
